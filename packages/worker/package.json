@@ -10,6 +10,10 @@
   "dependencies": {
     "@avail-np/core": "file:../core",
     "@avail-np/db": "file:../db",
+    "@polkadot/api": "^16.4.5",
+    "@polkadot/types": "^16.4.5",
+    "@polkadot/util": "^13.5.5",
+    "avail-js-sdk": "^0.4.2",
     "dotenv": "^16.4.5",
     "node-cron": "^3.0.3"
   },
