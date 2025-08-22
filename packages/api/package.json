@@ -8,14 +8,17 @@
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
   },
   "dependencies": {
-    "express": "^4.19.2",
+    "@avail-np/core": "file:../core",
+    "@avail-np/db": "file:../db",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "@avail-np/db": "file:../db",
-    "@avail-np/core": "file:../core"
+    "express": "^4.19.2"
   },
   "devDependencies": {
-    "typescript": "^5.4.0",
-    "ts-node-dev": "^2.0.0"
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.0"
   }
 }
