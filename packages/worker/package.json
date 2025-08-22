@@ -10,8 +10,8 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "node-cron": "^3.0.3",
-    "@avail-np/db": "workspace:*",
-    "@avail-np/core": "workspace:*"
+    "@avail-np/db": "file:../db",
+    "@avail-np/core": "file:../core"
   },
   "devDependencies": {
     "typescript": "^5.4.0",

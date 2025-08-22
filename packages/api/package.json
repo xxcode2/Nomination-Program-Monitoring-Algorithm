@@ -11,8 +11,8 @@
     "express": "^4.19.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "@avail-np/db": "workspace:*",
-    "@avail-np/core": "workspace:*"
+    "@avail-np/db": "file:../db",
+    "@avail-np/core": "file:../core"
   },
   "devDependencies": {
     "typescript": "^5.4.0",
